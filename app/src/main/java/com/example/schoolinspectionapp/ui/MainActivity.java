@@ -52,8 +52,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        activityMainBinding.campusBeautification.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,Campusbutification.class));
+            }
+        });
+
+
+        activityMainBinding.otherActivities.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,ExtraActivityDetails.class));
+            }
+        });
 
         activityMainBinding.attendanceStudentResult.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,Student_Result_Details.class));
+            }
+        });
+
+
+        activityMainBinding.CollegeWiseStudentResult.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this,College_Student_Result.class));

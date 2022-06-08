@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SchoolInspectionApp">
         <activity
+            android:name=".ui.ExtraActivityDetails"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Campusbutification"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Game_Details_Co_Curricular"
+            android:exported="false" />
+        <activity
             android:name=".ui.College_Student_Result"
             android:exported="false" />
         <activity

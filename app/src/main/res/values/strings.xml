@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">School Inspection App</string>
     <string name="passed_student"><b>%</b> of Passed Student</string>
+
+
+
+        <string-array name="array_yesno">
+            <item>Yes</item>
+            <item>No</item>
+        </string-array>
+
 </resources>
