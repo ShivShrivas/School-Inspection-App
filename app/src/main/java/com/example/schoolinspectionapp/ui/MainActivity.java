@@ -44,5 +44,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,Student_Presence.class));
             }
         });
+
+        activityMainBinding.attendanceStudentResult.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,Student_Result_Details.class));
+            }
+        });
     }
 }
